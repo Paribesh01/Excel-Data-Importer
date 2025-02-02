@@ -3,6 +3,6 @@ import excelRouter from "./excel";
 
 const router = Router();
 
-router.get("/excel", excelRouter);
+router.use("/excel", excelRouter);
 
 export default router;

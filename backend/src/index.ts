@@ -9,11 +9,10 @@ app.use(express.json());
 connectDB();
 app.use(cors());
 
+app.use("/api/v1", router);
 app.get("/", (req, res) => {
   res.send("Hello World!");
 });
-
-app.use("/api/v1", router);
 
 app.listen(3000, () => {
   console.log("Server is running on port 3000");
