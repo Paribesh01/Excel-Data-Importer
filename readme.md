@@ -51,7 +51,6 @@ Ensure you have the following installed:
    ```bash
    git clone https://github.com/your-username/excel-data-importer.git
    cd excel-data-importer
-
    ```
 
 2. Start Frontend:
@@ -60,7 +59,6 @@ Ensure you have the following installed:
    cd frontend
    npm install
    npm run dev
-
    ```
 
 3. Start backend:
@@ -69,7 +67,4 @@ Ensure you have the following installed:
    cd backend
    npm install
    ts-node src/index.ts
-
    ```
-
-4.
